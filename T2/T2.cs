@@ -40,10 +40,11 @@ namespace T2
             {
                 Console.WriteLine("Koulunumero on 5 ");
             }
-            else
+            if (luku > 12 || luku < 0 )
             {
-                Console.WriteLine("Väärä arvosana ");
+                Console.WriteLine("Virheellinen arvosana ");
             }
+
         }
     }
 }
